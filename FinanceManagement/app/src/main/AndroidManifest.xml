@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pri.financemanagement" >
+
+
+
+
+
+<application
+android:allowBackup="true"
+android:icon="@drawable/ic_launcher"
+android:label="@string/app_name"
+android:theme="@style/AppTheme" >
+<activity
+    android:name="com.example.pri.financemanagement.MainActivity"
+    android:label="@string/app_name" >
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+</activity>
+
+<activity
+    android:name="com.example.pri.financemanagement.ForgotPasswordlogin"
+    >
+</activity>
+
+<activity
+    android:name="com.example.pri.financemanagement.SignIn"
+    >
+</activity>
+<activity
+    android:name="com.example.pri.financemanagement.updateActivity"
+    >
+</activity>
+
+
+<activity
+    android:name="com.example.pri.financemanagement.Logout"
+    >
+</activity>
+
+    <activity
+        android:name="com.example.pri.financemanagement.Welcome"
+        >
+    </activity>
+    <activity
+        android:name="com.example.pri.financemanagement.Viewprof"
+        >
+    </activity>
+
+    <activity
+    android:name="com.example.pri.financemanagement.SignUPActivity"/>
+    <activity android:name=".addExpenseCat"/>
+    <activity android:name=".addIncomeCat"/>
+    <activity android:name=".addSubCategoryExpense"/>
+    <activity android:name=".MainActivityShangavi"/>
+    <activity android:name=".SubCategory_expense"/>
+    <activity android:name=".expense"/>
+    <activity android:name=".income"/>
+
+    <activity
+        android:name=".Addbudget"
+        >
+    </activity>
+    <activity
+        android:name=".List_activity"
+        >
+    </activity>
+    <activity
+        android:name=".List_activity_income"
+        >
+    </activity>
+    <activity android:name=".MonthlyBudget"
+        android:label="Budget" >
+    </activity>
+    <activity android:name=".Expenses_activity"
+        android:label="New Expense" >
+    </activity>
+    <activity android:name=".Income_activity"
+        android:label="New Inome" >
+    </activity>
+    <activity android:name=".UpdateExpenses"
+        android:label="Update Expense" >
+    </activity>
+    <activity android:name=".UpdateIncomes"
+        android:label="Upate Income" >
+    </activity>
+
+    <activity
+        android:name=".Addexpense"
+        android:label="Add Expense"></activity>
+    <activity
+        android:name=".Addincome"
+        android:label="Add Income"></activity>
+
+    <activity
+        android:name=".TodaysTransaction"
+        android:label="Today's Transaction"></activity>
+    <activity
+        android:name=".AmountDistribution"
+        android:label="Amount Distribution"></activity>
+    <activity
+        android:name=".BudgetForMonth"
+        android:label="Budget For Month"></activity>
+
+    <activity
+        android:name=".MainActivityBudget"
+        android:label="Budget"></activity>
+
+
+
+    <activity
+        android:name=".Budget_activity"
+        >
+    </activity>
+
+    <activity android:name=".MainActivity_ps"
+        android:label="Payment Scheduler"></activity>
+
+    <activity android:name=".expenses"
+        android:label="Payment Scheduler"></activity>
+
+    <activity android:name=".Expenses_activity_ps"
+        android:label="Payment Scheduler"></activity>
+
+    <activity android:name=".List_activity_ps"
+        android:label="Payment Scheduler"></activity>
+
+    <activity android:name=".u_payments"
+        android:label="Update Payments"></activity>
+
+    <activity android:name=".viewMonthly"
+        android:label="Monthly Payments"></activity>
+
+    <activity android:name=".addPayment"
+        android:label="Add Payment "></activity>
+
+
+</application>
+
+</manifest>

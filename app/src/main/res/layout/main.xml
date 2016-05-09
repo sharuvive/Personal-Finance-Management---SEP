@@ -1,0 +1,43 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"></FrameLayout>
+
+    <Button
+        android:id="@+id/buttonSignIN"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:onClick="signIn"
+        android:layout_x="18dp"
+        android:layout_y="226dp" />
+
+    <Button
+        android:id="@+id/buttonSignUP"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_x="193dp"
+        android:layout_y="222dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Personal Financial Management"
+        android:id="@+id/textView16"
+        android:layout_x="0dp"
+        android:layout_y="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        />
+
+</AbsoluteLayout>

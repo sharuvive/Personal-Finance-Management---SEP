@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FinanceManagement</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="monthly_budget">Monthly Budget</string>
+    <string name="yearly_budget">Yearly Budget</string>
+    <string name="weekly_budget">Weekly Budget</string>
+    <string name="daily_budget">Daily Budget</string>
+    <string name="notification_title">Warning</string>
+    <string name="notification_text">Your expenses are reaching the budget amount</string>
+    <string name="notification_text_exceed">Your expenses have reached the budget amount</string>
+
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>
